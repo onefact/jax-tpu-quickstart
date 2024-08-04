@@ -98,3 +98,21 @@ pip install -U pip
 pip install -U wheel
 pip install -U "jax[tpu]" -f https://storage.googleapis.com/jax-releases/libtpu_releases.html
 ```
+# Step 8: Configure VSCode Remote-SSH
+
+1. **Open VSCode**: Launch Visual Studio Code on your computer.
+
+2. **Access the Extensions Panel**: On the left side of the window, click on the Extensions icon to open the Extensions panel.
+
+3. **Install Remote - SSH**:
+    - In the Extensions panel, search for "Remote - SSH".
+    - Click "Install" to add the extension to VSCode.
+
+4. **Connect to Host**:
+    - Press `F1` to open the command palette.
+    - Type `ssh` and select "Remote-SSH: Connect to Host...".
+    - Click on the server name you set in `~/.ssh/config` (e.g., `tpuv3-8-1`).
+
+5. **Setup Completion**: Once VSCode completes the setup on the server, you can develop directly on the server with VSCode.
+
+![Screenshot](link_to_screenshot)
