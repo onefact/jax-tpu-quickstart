@@ -21,7 +21,7 @@ Tensor Processing Units (TPUs) are custom-designed hardware accelerators for run
 
 You should see a screen similar to the one below:
 
-![TPU Dashboard](path_to_your_screenshot.png)
+![TPU Dashboard](images/0.png)
 
 ## TPU Configuration
 
