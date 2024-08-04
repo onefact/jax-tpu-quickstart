@@ -115,4 +115,4 @@ pip install -U "jax[tpu]" -f https://storage.googleapis.com/jax-releases/libtpu_
 
 5. **Setup Completion**: Once VSCode completes the setup on the server, you can develop directly on the server with VSCode.
 
-![Screenshot](link_to_screenshot)
+![Screenshot](images/3.png)
