@@ -1,4 +1,6 @@
-# TPU Quickstart Guide: Part 1 - Setting Up
+# TPU Quickstart Guide: 
+
+## Part 1 - Setting Up
 
 This guide will help you get started with using Tensor Processing Units (TPUs) on Google Cloud Platform.
 
