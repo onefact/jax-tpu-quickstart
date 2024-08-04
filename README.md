@@ -32,6 +32,19 @@ In this example, we're using the following configuration:
 - TPU software version: tpu-ubuntu2204-base
 - Architecture: TPU VM
 
-## Next Steps
+## Part 2: Setting Up SSH Access for Google Cloud TPUs
 
-In the next part of this guide, we'll cover how to create a TPU VM and connect to it.
+### Step 2: Add an SSH public key to Google Cloud
+
+When setting up SSH access for Google Cloud TPUs, it's important to note that using `ssh-copy-id` is not the correct approach. Instead, follow these steps:
+
+1. Navigate to the Google Cloud Console
+2. Type "SSH keys" into the search box
+3. Go to the relevant page
+4. Click "Edit"
+5. Add your computer's SSH public key
+
+To view your computer's SSH public key, use the following command:
+
+```bash
+cat ~/.ssh/id_rsa.pub
