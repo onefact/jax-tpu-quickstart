@@ -67,5 +67,5 @@ Host tpuv3-8-1
     Hostname 34.16.41.193
 ```
 
-
+Hostname is the IP address of the TPU VM.
 
