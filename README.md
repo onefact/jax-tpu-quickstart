@@ -69,3 +69,7 @@ Host tpuv3-8-1
 
 Hostname is the IP address of the TPU VM.
 
+If you connect successfully, it will show this in your Terminal
+
+![TPU Terminal](images/1.png)
+
