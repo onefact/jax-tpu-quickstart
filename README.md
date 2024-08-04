@@ -73,3 +73,11 @@ If you connect successfully, it will show this in your Terminal
 
 ![TPU Terminal](images/1.png)
 
+Type in this in your Command Line
+```bash
+ls /dev/accel*
+```
+
+You should see something like this:
+![TPU Terminal](images/2.png)
+
