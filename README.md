@@ -1,18 +1,35 @@
-# Create your TPU
+# TPU Quickstart Guide: Part 1 - Setting Up
 
-1. https://console.cloud.google.com/compute/tpus
-2. "Create TPU"
-3. find the correct zone for your TPU type from this table https://cloud.google.com/tpu/docs/regions-zones; under "Basics" set "Zone"
-4. under "TPU Settings" set "TPU software version" to tpu-ubuntu2204-base and "TPU type" to your TPU type
-5. under "Management" select Preemptibility if desired
+This guide will help you get started with using Tensor Processing Units (TPUs) on Google Cloud Platform.
 
-# Install Jax
+## Introduction
 
-per https://cloud.google.com/tpu/docs/run-calculation-jax:
-```sh
-python3 -m pip install jax[tpu] -f https://storage.googleapis.com/jax-releases/libtpu_releases.html
-```
+Tensor Processing Units (TPUs) are custom-designed hardware accelerators for running machine learning workloads. This guide will walk you through the process of setting up and using TPUs in the Google Cloud Console.
 
-# Run Jax
+## Prerequisites
 
-TODO
+- A Google Cloud account
+- Billing enabled for your project
+- TPU API enabled in your project
+
+## Step 1: Accessing the TPU Dashboard
+
+1. Go to [https://console.cloud.google.com/](https://console.cloud.google.com/)
+2. Navigate to the TPU section
+
+You should see a screen similar to the one below:
+
+![TPU Dashboard](path_to_your_screenshot.png)
+
+## TPU Configuration
+
+In this example, we're using the following configuration:
+
+- Zone: us-central1-b
+- TPU type: v3-8
+- TPU software version: tpu-ubuntu2204-base
+- Architecture: TPU VM
+
+## Next Steps
+
+In the next part of this guide, we'll cover how to create a TPU VM and connect to it.
