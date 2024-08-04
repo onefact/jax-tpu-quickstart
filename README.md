@@ -58,12 +58,14 @@ After adding your SSH public key to Google Cloud, you can set up easy access to 
 
 ```bash
 vim ~/.ssh/config
+```
 
 Add the following content:
 ```bash
 Host tpuv3-8-1
     User tommyly
     Hostname 34.16.41.193
+```
 
 
 
