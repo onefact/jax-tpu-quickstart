@@ -81,3 +81,20 @@ ls /dev/accel*
 You should see something like this:
 ![TPU Terminal](images/2.png)
 
+
+## Create a virtual environment (venv):
+
+```bash
+python3.12 -m venv ~/venv
+```
+
+Activate the venv:
+```bash
+. ~/venv/bin/activate
+```
+Install JAX in the venv:
+```bash
+pip install -U pip
+pip install -U wheel
+pip install -U "jax[tpu]" -f https://storage.googleapis.com/jax-releases/libtpu_releases.html
+```
