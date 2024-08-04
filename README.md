@@ -48,3 +48,21 @@ To view your computer's SSH public key, use the following command:
 
 ```bash
 cat ~/.ssh/id_rsa.pub
+
+# Step 3: SSH to TPU VM
+
+After adding your SSH public key to Google Cloud, you can set up easy access to your TPU VM. Instead of using nano, we'll use vim for editing the SSH config file.
+
+## Create or edit your computer's ~/.ssh/config:
+
+```bash
+vim ~/.ssh/config
+
+Add the following content:
+```bash
+Host tpuv3-8-1
+    User tommyly
+    Hostname 34.16.41.193
+
+
+
