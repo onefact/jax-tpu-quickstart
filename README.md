@@ -48,6 +48,7 @@ To view your computer's SSH public key, use the following command:
 
 ```bash
 cat ~/.ssh/id_rsa.pub
+```
 
 # Step 3: SSH to TPU VM
 
