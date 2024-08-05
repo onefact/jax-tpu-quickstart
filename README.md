@@ -99,7 +99,7 @@ pip install -U pip
 pip install -U wheel
 pip install -U "jax[tpu]" -f https://storage.googleapis.com/jax-releases/libtpu_releases.html
 ```
-### Step 5: Configure VSCode Remote-SSH
+### Step 4: Configure VSCode Remote-SSH
 
 1. **Open VSCode**: Launch Visual Studio Code on your computer.
 
@@ -118,7 +118,7 @@ pip install -U "jax[tpu]" -f https://storage.googleapis.com/jax-releases/libtpu_
 
 ![Screenshot](images/3.png)
 
-### Step 6: Running TPUs on Your Local Notebook
+### Step 5: Running TPUs on Your Local Notebook
 You should be able to run TPUs on your local notebook by emulating these commands
 
 ![Screenshot](images/5.png)
