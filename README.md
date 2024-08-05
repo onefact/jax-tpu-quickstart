@@ -113,6 +113,6 @@ pip install -U "jax[tpu]" -f https://storage.googleapis.com/jax-releases/libtpu_
     - Type `ssh` and select "Remote-SSH: Connect to Host...".
     - Click on the server name you set in `~/.ssh/config` (e.g., `tpuv3-8-1`).
 
-5. **Setup Completion**: Once VSCode completes the setup on the server, you can develop directly on the server with VSCode.
+5. **Setup Completion**: Once VSCode completes the setup on the server, you can develop directly on the server with VSCode. The name tpuv3-8-1 should apepar when you click Connect to Host
 
 ![Screenshot](images/3.png)
