@@ -14,7 +14,8 @@ Tensor Processing Units (TPUs) are custom-designed hardware accelerators for run
 - Billing enabled for your project
 - TPU API enabled in your project
 
-## Step 1: Accessing the TPU Dashboard
+## Part 1: Setting Up
+### Step 1: Accessing the TPU Dashboard
 
 1. Go to [https://console.cloud.google.com/](https://console.cloud.google.com/)
 2. Navigate to the TPU section
@@ -23,7 +24,7 @@ You should see a screen similar to the one below:
 
 ![TPU Dashboard](images/0.png)
 
-## TPU Configuration
+### TPU Configuration
 
 In this example, we're using the following configuration:
 
@@ -50,11 +51,11 @@ To view your computer's SSH public key, use the following command:
 cat ~/.ssh/id_rsa.pub
 ```
 
-# Step 3: SSH to TPU VM
+### Step 3: SSH to TPU VM
 
 After adding your SSH public key to Google Cloud, you can set up easy access to your TPU VM. Instead of using nano, we'll use vim for editing the SSH config file.
 
-## Create or edit your computer's ~/.ssh/config:
+### Create or edit your computer's ~/.ssh/config:
 
 ```bash
 vim ~/.ssh/config
@@ -82,7 +83,7 @@ You should see something like this:
 ![TPU Terminal](images/2.png)
 
 
-## Create a virtual environment (venv):
+### Create a virtual environment (venv):
 
 ```bash
 python3.12 -m venv ~/venv
@@ -98,7 +99,7 @@ pip install -U pip
 pip install -U wheel
 pip install -U "jax[tpu]" -f https://storage.googleapis.com/jax-releases/libtpu_releases.html
 ```
-# Step 8: Configure VSCode Remote-SSH
+### Step 5: Configure VSCode Remote-SSH
 
 1. **Open VSCode**: Launch Visual Studio Code on your computer.
 
@@ -117,6 +118,7 @@ pip install -U "jax[tpu]" -f https://storage.googleapis.com/jax-releases/libtpu_
 
 ![Screenshot](images/3.png)
 
+### Step 6: Running TPUs on Your Local Notebook
 You should be able to run TPUs on your local notebook by emulating these commands
 
 ![Screenshot](images/5.png)
