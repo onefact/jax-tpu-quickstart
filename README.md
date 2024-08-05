@@ -116,3 +116,7 @@ pip install -U "jax[tpu]" -f https://storage.googleapis.com/jax-releases/libtpu_
 5. **Setup Completion**: Once VSCode completes the setup on the server, you can develop directly on the server with VSCode. The name tpuv3-8-1 should apepar when you click Connect to Host
 
 ![Screenshot](images/3.png)
+
+You should be able to run TPUs on your local notebook by emulating these commands
+
+![Screenshot](images/5.png)
